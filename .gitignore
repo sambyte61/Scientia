@@ -1,0 +1,49 @@
+# --- Build Artifacts ---
+build/
+Build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# --- Project-specific binaries ---
+Scientia
+ScientiaMathTests
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# --- IDE and OS files ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# --- Logs and crash dumps ---
+*.log
+*.stackdump
+
+# --- Backup/temporary files ---
+*~
+*.swp
+*.bak
+*.tmp
+*.old
+
+# --- Testing ---
+Testing/
+CTestTestfile.cmake
+DartConfiguration.tcl
+test_output.xml
+
+# --- Catch2 ---
+.cache/
