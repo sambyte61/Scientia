@@ -47,3 +47,6 @@ test_output.xml
 
 # --- Catch2 ---
 .cache/
+
+# --- Python ---
+*__pycache__
